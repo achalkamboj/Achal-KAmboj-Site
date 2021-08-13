@@ -2,4 +2,4 @@
 
 I am using git and github for the first time with tanay pratap.
 
-Doing again .
+I have used html and css to make my first website, i.e my portfolio.
