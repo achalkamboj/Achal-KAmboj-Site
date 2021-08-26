@@ -47,9 +47,23 @@ hr{
     list-style: none;
 }
 
+.list-bullet{
+    padding: 1rem 0.5rem;
+  
+}
+
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.list-numbered{
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.categories{
+    padding-bottom: 2rem;
 }
 
 .navigation{
@@ -94,13 +108,22 @@ hr{
     color: var(--dark-gray);
 }
 
+.blog-img{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 350px;
+    max-height: 350px;
+}
+
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
 
 .section {
-    padding: 2rem;
+    padding-right: 2rem;
 }
+
 
 .section h1 {
     text-align: center;
@@ -128,6 +151,7 @@ hr{
 .footer .footer-heading {
     font-weight: bold;
     font-size: large;
+    margin-bottom: 2rem;
 }
 
 .footer ul {
